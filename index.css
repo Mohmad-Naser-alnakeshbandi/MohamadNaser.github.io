@@ -1,0 +1,279 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  background-color: black;
+}
+.all{
+  margin-bottom: 20px;
+}
+.name{
+  background-color: black;
+  width: 100%;
+}
+.name img{
+  margin-left:45% ;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.name h1{
+  margin-left:40% ;
+}
+.name h2{
+  margin-left:40% ;
+}
+#eins{
+  color:red;
+}
+#zwei{
+  color:aqua;
+}
+#drei{
+  color:tan;
+}
+.skill
+{
+  margin-top: -759.6px;
+  margin-left: 50%;
+  width: 50%;
+  background-color: black;
+}
+.skill h1
+{
+  padding-top: 9%;
+  margin-left:40%;
+  font-family: 'Coda Caption', sans-serif;
+  margin-bottom: 100px;
+}
+.skill table 
+{
+  margin-top: -75px;
+  margin-left: 8%;
+  height: 600px;
+  width: 70%;
+  font-size: 20px;
+}
+.skill table progress 
+{
+  margin-left: 50px;
+  width: 200px;
+  border-radius: 2px;
+  background-color:bisque;
+}
+.value{
+  color: yellow;
+}
+.pro{
+  font-family: 'Coda Caption', sans-serif;
+  color:aqua;
+}
+.info{
+  width: 50%;
+  background-color: black;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+.info h1{
+  font-family: 'Coda Caption', sans-serif;
+}
+
+.info h1 span{
+  color: aqua;
+}
+.info li{
+  list-style: none;
+  font-size: 30px;
+}
+.info i{
+  font-size: 18px;
+}
+.hobby{
+  margin-left: 20%;
+}
+.hobby h1{
+  margin-left: -13%;
+  font-family: 'Coda Caption', sans-serif;
+}
+.hobby table{
+  width: 80%;
+
+}
+.hobby table tr td img{
+  margin-left: 25px;
+  width: 150px;
+  height: 150px;
+  border-radius: 25px;
+}
+.last {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 40px;
+}
+.last h1{
+  font-family: 'Coda Caption', sans-serif;
+  margin-left: 9%;
+}
+.last table{
+  margin-left: 30%;
+  width: 70%;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.last table tr a{
+  color: azure;
+}
+@media(max-width:1024px){
+ body{
+   background-color: black;
+ }
+ .name{
+  width: 100%;
+}
+.name img{
+  margin-left:40% ;
+}
+.name h1{
+  margin-left:25% ;
+  margin-bottom: 50px;
+}
+.skill{
+  margin-top: 0px;
+  margin-left:0%;
+  width: 100%;
+  background-color: black;
+}
+.skill h1{
+  padding-top: 0%;
+  margin-left: 3%;
+  font-family: 'Coda Caption', sans-serif;
+  margin-bottom: 100px;
+}
+.skill table{
+  margin-left: 0%;
+  width: 90%;
+  background-color: black;
+}
+.skill table {
+  margin-left: 2%;
+}
+.skill table progress {
+  margin-left: 10px;
+}
+.skill table span {
+  margin-left: 10px;
+  font-size: 18px;
+}
+.info{
+  width: 100%;
+  margin-left: 3%;
+}
+.info li{
+  list-style: none;
+  font-size: 25px;
+}
+.info i{
+  font-size: 20px;
+}
+.hobby{
+  margin-left: 5%;
+}
+.hobby h1{
+  margin-left: -0%;
+  font-family: 'Coda Caption', sans-serif;
+  font-size: 20px;
+}
+.hobby table{
+  width: 80%;
+}
+.hobby table tr td img{
+  margin-left: 35px;
+  width: 120px;
+  height: 120px;
+  border-radius: 25px;
+}
+.last h1{
+  margin-left: 6%;
+  font-size: 20px;
+}
+.last table{
+  margin-left: 25%;
+  width: 70%;
+}
+}
+@media(max-width:700px){
+  .name{
+    width: 100%;
+  }
+  .name img{
+    margin-left:25% ;
+  }
+  .name h1{
+    margin-left:25% ;
+    margin-bottom: 50px;
+  }
+  .skill{
+    margin-top: 0px;
+    margin-left:0%;
+    width: 100%;
+    background-color: black;
+  }
+  .skill h1{
+    padding-top: 0%;
+    margin-left: 3%;
+    font-family: 'Coda Caption', sans-serif;
+    margin-bottom: 100px;
+  }
+  .skill table{
+    margin-left: 0%;
+    width: 90%;
+    background-color: black;
+  }
+  .skill table {
+    margin-left: 2%;
+  }
+  .skill table progress {
+    margin-left: 10px;
+  }
+  .skill table span {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  .info{
+    width: 100%;
+    margin-left: 3%;
+  }
+  .info li{
+    list-style: none;
+    font-size: 25px;
+  }
+  .info i{
+    font-size: 20px;
+  }
+  .hobby{
+    margin-left: 5%;
+  }
+  .hobby h1{
+    margin-left: -0%;
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 20px;
+  }
+  .hobby table{
+    width: 80%;
+  }
+  .hobby table tr td img{
+    margin-left: 35px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  .last h1{
+    margin-left: 6%;
+    font-size: 20px;
+  }
+  .last table{
+    margin-left: 25%;
+    width: 70%;
+  }
+}
